@@ -16,12 +16,14 @@ int main() {
             }else{
                 if(j<=x/2 && i<=y/3){
                     if(i==+j-y/3){
+                    if(i==j-y/3){
                         cout<<"# ";
                     }else{
                         cout<<". ";
                     }                                        
                 }else{
                     if(j<= 3*x/4 && i<=y/3){
+                    if(j<=(3*x)/4 && i<=y/3){
                         if(i==-j+y){
                             cout<<"# ";        
                         }else{
